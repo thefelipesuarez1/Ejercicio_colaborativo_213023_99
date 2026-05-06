@@ -302,7 +302,7 @@ def ejecutar_simulacion():
     sistema.crear_reserva(cliente2, equipo, 3, impuesto=0.19)
     sistema.crear_reserva(cliente3, asesoria, 1, impuesto=0.19, descuento=20000)
 
-    # Daniela entra en acción 😎
+    
     sistema.crear_reserva(cliente4, sala, 3, impuesto=0.19)
 
     sistema.crear_reserva(cliente1, sala, -1)
